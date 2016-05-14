@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <np.com.rijaldinesh.www.testcamera.Preview android:id="@+id/preview"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+    </np.com.rijaldinesh.www.testcamera.Preview>
+
+    <np.com.rijaldinesh.www.testcamera.TouchView android:id="@+id/left_top_view"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+    </np.com.rijaldinesh.www.testcamera.TouchView>
+
+    <ImageView android:id="@+id/startcamerapreview" android:src="@drawable/download"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
